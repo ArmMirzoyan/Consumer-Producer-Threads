@@ -9,7 +9,7 @@ public class Consumer extends Thread {
     public void run() {
         int index = 0;
         while (index < 1000) {
-            int a = queue.get();
+            queue.get();
             index++;
         }
     }
